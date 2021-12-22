@@ -325,3 +325,11 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-section {
+  height: 400px;
+}
+
+.contact-section hr {
+  width: 100% !important;
+}
