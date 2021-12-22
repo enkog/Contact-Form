@@ -329,3 +329,10 @@ li {
 .contact-section hr {
   width: 100% !important;
 }
+
+.contact-section input {
+  border: none;
+  border-bottom: 1px solid #666;
+  outline: none;
+  padding: 10px 0;
+}
