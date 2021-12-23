@@ -404,6 +404,11 @@ form input[type=email] {
   display: none;
 }
 
+@media screen and (min-width: 920px) {
+  .name-lg { display: block; }
+  .name-sm { display: none;}
+}
+
 @media screen and (max-width: 768px) {
   .main-contact { flex-wrap: wrap; }
   .contact-left { flex-basis: 100%; }
@@ -416,10 +421,7 @@ form input[type=email] {
     display: block; 
   }
 
-  form input[type=text] {
-    width: 100%;
-  }
-
+  form input[type=text] { width: 100%; }
   .name-lg { display: none; }
 }
 
