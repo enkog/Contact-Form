@@ -330,7 +330,7 @@ li {
   width: 100% !important;
 }
 
-.contact-section h2{
+.contact-section h2 {
   font-size: 30px;
 }
 
@@ -343,7 +343,7 @@ li {
 }
 
 .contact-section textarea {
-  background: #FBF8F7;
+  background: #fbf8f7;
   width: 100%;
   padding: 10px 0;
   margin-bottom: 15px;
@@ -384,18 +384,18 @@ form input[type=email] {
 }
 
 .contact-section .social-icon {
-  color: #505F79;
+  color: #505f79;
 }
 
 .btn {
-  background: #F55800;
+  background: #f55800;
   color: #fff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
 }
 
-@media screen and (max-width:768px) {
-  .main-contact { flex-wrap: wrap;  }
+@media screen and (max-width: 768px) {
+  .main-contact { flex-wrap: wrap; }
   .contact-left { flex-basis: 100%; }
 }
