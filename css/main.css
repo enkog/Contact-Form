@@ -400,7 +400,27 @@ form input[type=email] {
   color: #F55800;
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .main-contact { flex-wrap: wrap; }
   .contact-left { flex-basis: 100%; }
+  .name-lg { display: block; }
+  .name-sm { display: none;}
 }
+
+@media screen and (max-width: 375px) {
+  .name-sm { 
+    display: block; 
+  }
+
+  form input[type=text] {
+    width: 100%;
+  }
+
+  .name-lg { display: none; }
+}
+
+
