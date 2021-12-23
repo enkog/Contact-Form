@@ -395,6 +395,11 @@ form input[type=email] {
   cursor: pointer;
 }
 
+.btn:hover {
+  background: #FFF5E1;
+  color: #F55800;
+}
+
 @media screen and (max-width: 768px) {
   .main-contact { flex-wrap: wrap; }
   .contact-left { flex-basis: 100%; }
