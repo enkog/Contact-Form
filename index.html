@@ -294,19 +294,19 @@
       <section class="contact-section">
         <div class="main-contact">
           <h2 class="contact-left">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-          <form class="contact-right">
+          <form action="https://formspree.io/f/{form_id}" method="post" class="contact-right">
             <div>
-              <input type="text" placeholder="First Name" maxlength="30" />
-              <input type="text" placeholder="Last Name" maxlength="30" />
+              <input type="text" placeholder="First Name" maxlength="30" required />
+              <input type="text" placeholder="Last Name" maxlength="30" required />
             </div>
             <div>
-              <input type="email" placeholder="Email Address">
+              <input type="email" placeholder="Email Address" required>
             </div>
             <div>
-              <textarea name="comment" placeholder="Enter your message..." rows="4"></textarea>
+              <textarea name="comment" placeholder="Enter your message..." rows="4" required></textarea>
             </div>
             <div>
-              <button type="button" class="btn">Get in Touch</button>
+              <button type="submit" class="btn">Get in Touch</button>
             </div>
           </form>
         </div>
