@@ -352,6 +352,7 @@ li {
 .main-contact {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 100px;
   padding: 10%;
 }
@@ -392,4 +393,9 @@ form input[type=email] {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .main-contact { flex-wrap: wrap;  }
+  .contact-left { flex-basis: 100%; }
 }
