@@ -396,8 +396,8 @@ form input[type=email] {
 }
 
 .btn:hover {
-  background: #FFF5E1;
-  color: #F55800;
+  background: #fff5e1;
+  color: #f55800;
 }
 
 .hidden {
@@ -406,23 +406,21 @@ form input[type=email] {
 
 @media screen and (min-width: 920px) {
   .name-lg { display: block; }
-  .name-sm { display: none;}
+  .name-sm { display: none; }
 }
 
 @media screen and (max-width: 768px) {
   .main-contact { flex-wrap: wrap; }
   .contact-left { flex-basis: 100%; }
   .name-lg { display: block; }
-  .name-sm { display: none;}
+  .name-sm { display: none; }
 }
 
 @media screen and (max-width: 375px) {
-  .name-sm { 
-    display: block; 
+  .name-sm {
+    display: block;
   }
 
   form input[type=text] { width: 100%; }
   .name-lg { display: none; }
 }
-
-
