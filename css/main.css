@@ -325,3 +325,98 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-section hr {
+  width: 100% !important;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+}
+
+.contact-section input {
+  border: none;
+  border-bottom: 1px solid #666;
+  outline: none;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.contact-section textarea {
+  background: #fbf8f7;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.main-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 10%;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  flex: 2;
+}
+
+form input[type=text] {
+  width: 49%;
+}
+
+form input[type=email] {
+  width: 100%;
+}
+
+.contact-section .social {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.contact-section .social-icon {
+  color: #505f79;
+}
+
+.btn {
+  background: #f55800;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fff5e1;
+  color: #f55800;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 920px) {
+  .name-lg { display: block; }
+  .name-sm { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .main-contact { flex-wrap: wrap; }
+  .contact-left { flex-basis: 100%; }
+  .name-lg { display: block; }
+  .name-sm { display: none; }
+}
+
+@media screen and (max-width: 375px) {
+  .name-sm {
+    display: block;
+  }
+
+  form input[type=text] { width: 100%; }
+  .name-lg { display: none; }
+}
